@@ -83,7 +83,7 @@ The **Prospects** tab of the Consignment pipeline page lists strong buyers who n
 
 ## Who to call
 
-On the item page, the **Who to call** box lists up to 10 clients who are most likely interested in the lot, based on their bidding history in the lot's category. For each client you see a score, the signals behind it (**watching**, **underbid similar**, **offered before**), phone, email and responsible staff.
+The **Who to call** tab of the item page (right after **Item History**) lists up to 10 clients who are most likely interested in the lot, based on their bidding history in the lot's category. For each client you see a score, the signals behind it (**watching**, **underbid similar**, **offered before**), phone, email and responsible staff.
 
 Clients who blocked emails are left out unless you tick **Include clients who blocked emails**. Only clients with a bid history are suggested.
 
