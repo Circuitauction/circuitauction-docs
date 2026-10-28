@@ -36,6 +36,38 @@ the un-commented `'database'` line in
 - Client statuses in demo: 25 approved, 10 new, 3 unapproved; tag `Passive` on one client
   (used for the tag-filter shot).
 
+### Item moves fixtures (version 3.6, seeded 2026-10-28)
+
+Seeded by `circuitauction-backoffice/.superpowers/sdd/2026-10-26-sibling-move-item-history/seed-demo.php`
+(a one-off `drush scr`; the chain is built with the real clone code, the sibling hop is written
+by hand). Used by the `item-moves` tutorials and the Items > Clone or Move help page.
+
+- **Sale 38 "Stamps of the World #108"** (sale number 1, finished), consignment **254**
+  "Consigner William Brown": where the lots start.
+- **Sale 3691 "Autumn Stamps Sale"** (renamed from "1", sale number 18, status new, no lot
+  numbers): the return sale and the destination of the clone-rules tutorial.
+- **Lot 3 of sale 1 = item 262** → cloned into sale 17 "Stamps" as item **3800** (status
+  `moved_to_remote_bo`, external history row to the sibling) → back from the sibling into
+  sale 18 as item **3806** (its first history row carries the sibling origin, no local
+  connected record). Chain: Sale 1 → Sale 17 → Demo US → Sale 18.
+- **Lot 4 of sale 1 = item 265** → cloned into sale 17 as item **3809** only. The clone-rules
+  tutorial force-clones 265 into sale 18 on every run and leaves the clone there (delete it
+  afterwards if the fixture must stay canonical).
+- **Sibling backoffice "Demo US"**: term 318 of `connected_backoffices`, domains
+  `demo-us.circuitauction.test`, **no secret**, so nothing is ever fetched from it and the
+  chain ends at its box. `server_general_backoffice_name` = "Demo Europe".
+- `backoffice_item_display_column` has `moved_to` right after `lot` (the "Moved to" column, visible
+  without horizontal scrolling in the shots and the videos).
+
+Screenshots: `item-chain`, `item-history-external`, `family-tree-chain`, `items-list-moved-to`,
+`clone-move-force-clone` (all in `assets/screenshots/`, captured with the
+Cypress spec `client/cypress/docs-shots/item-moves.cy.js`:
+`cd client && npx cypress run --browser chrome --config-file cypress.docs.config.js` (Electron's
+`cy.screenshot()` hangs here) at 1680×950, 1920×950 for the history tab, then copied from
+`client/cypress/screenshots/`; a refused lot is
+answered at once as an alert in the form, nothing is queued, so the refusal and the ticked
+"Force clone items" are one shot).
+
 ## 2. Authentication for headless captures
 
 Get a token and seed it **before the app boots** (the login form is not needed):

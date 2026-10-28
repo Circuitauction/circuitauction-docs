@@ -52,6 +52,7 @@
   * [Übersicht](/de/items/README.md)
   * [Los anlegen](/de/items/how-to-create-an-item.md)
   * [Bestehendes Los finden](/de/items/how-to-find-an-existing-item.md)
+  * [Los zwischen Auktionen und Backoffices klonen oder verschieben](/de/items/clone-move-between-sales-and-backoffices.md)
   * [Ablauf bei „uV Prüfung“ (UE)](/de/items/under-extension-worflow.md)
 
 * **Datenmigration**
@@ -160,6 +161,7 @@
 
 * **Release-Notes**
   * [Übersicht](/de/release-notes/README.md)
+  * [Version 3.6](/de/release-notes/version-3.6.md)
   * [Version 3.5](/de/release-notes/version-3.5.md)
   * [Version 3.4](/de/release-notes/version-3.4.md)
   * [Version 3.3](/de/release-notes/version-3.3.md)

@@ -52,6 +52,7 @@
   * [Overview](items/README.md)
   * [How to Create an Item](items/how-to-create-an-item.md)
   * [How to Find an Existing Item](items/how-to-find-an-existing-item.md)
+  * [Clone or Move an Item Between Sales and Backoffices](items/clone-move-between-sales-and-backoffices.md)
   * [Under extension worflow](items/under-extension-worflow.md)
 
 * **Data Migration**
@@ -160,6 +161,7 @@
 
 * **Release Notes**
   * [Overview](release-notes/README.md)
+  * [Version 3.6](release-notes/version-3.6.md)
   * [Version 3.5](release-notes/version-3.5.md)
   * [Version 3.4](release-notes/version-3.4.md)
   * [Version 3.3](release-notes/version-3.3.md)

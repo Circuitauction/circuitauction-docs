@@ -48,6 +48,7 @@
 * [Items](items/README.md)
   * [How to Create an Item](items/how-to-create-an-item.md)
   * [How to Find an Existing Item](items/how-to-find-an-existing-item.md)
+  * [Clone or Move an Item Between Sales and Backoffices](items/clone-move-between-sales-and-backoffices.md)
   * [Under extension worflow](items/under-extension-worflow.md)
 * [Data Migration](data-migration/README.md)
   * [Items (Self-Service)](data-migration/items.md)

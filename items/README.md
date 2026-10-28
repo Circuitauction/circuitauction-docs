@@ -10,3 +10,4 @@ The color boxes at the top **\[2\]** display the total number of items and the n
 
 Table **\[3\]** displays the Items list which you can [filter](how-to-find-an-existing-item.md) by any column.
 
+A lot that did not sell can be [cloned or moved to a later sale, or sent to a sibling backoffice](clone-move-between-sales-and-backoffices.md); the backoffice keeps the chain of every lot.
