@@ -38,9 +38,10 @@ the un-commented `'database'` line in
 
 ### Item moves fixtures (version 3.6, seeded 2026-10-28)
 
-Seeded by `circuitauction-backoffice/.superpowers/sdd/2026-10-26-sibling-move-item-history/seed-demo.php`
-(a one-off `drush scr`; the chain is built with the real clone code, the sibling hop is written
-by hand). Used by the `item-moves` tutorials and the Items > Clone or Move help page.
+Seeded by `circuitauction-backoffice/server/scripts/demo/seed-item-moves.php` (a one-off
+`ddev drush scr`; the chain is built with the real clone code, the sibling hop is written by
+hand); `server/scripts/demo/cleanup-item-moves-clones.php` removes the clones the clone-rules
+tutorial leaves in sale 18. Used by the `item-moves` tutorials and the Items > Clone or Move help page.
 
 - **Sale 38 "Stamps of the World #108"** (sale number 1, finished), consignment **254**
   "Consigner William Brown": where the lots start.
