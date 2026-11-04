@@ -79,7 +79,7 @@ categories
   → orders
   → buyer transactions
   → consignor statements / payouts
-  → images (phase 2)
+  → images (the `image_url` column of the items sheet, see [Items](items.md#images))
 ```
 
 Key points:
