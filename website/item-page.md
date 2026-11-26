@@ -22,6 +22,12 @@ Displays a single auction item: image gallery with lightbox, title and subtitle,
 
 For lots with more than 200 images, the toggle opens the full‑screen image viewer (with its own scrollable thumbnail strip) instead of expanding the thumbnails inline.
 
+### Gallery behaviour
+
+Clicking a thumbnail shows that image in the main image above the thumbnails. On a lot with many images, the visitor may have scrolled so far down the thumbnails that the main image is no longer on screen. In that case the click opens the full‑screen image viewer at that image instead, so the visitor always sees the image they picked.
+
+The main image follows the full‑screen viewer: after browsing to another image there and closing the viewer, the page shows that same image.
+
 ### Display modes
 
 | Mode | Best for | Shows |

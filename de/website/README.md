@@ -1,4 +1,4 @@
-<!-- i18n source=website/README.md sha=76cf1dbf8043 -->
+<!-- i18n source=website/README.md sha=78068a32ce1a -->
 # Website (einbettbare Blöcke)
 
 > Wenn Sie eine WordPress-Website einrichten, automatisiert das [CircuitAuction-WordPress-Plugin](/de/website/wordpress-plugin.md) alles auf dieser Seite (Loader-Skript, Setup-Div, Seiten-Divs) und ergänzt Gutenberg-Blöcke für die Katalog- und Auktions-Widgets.
@@ -71,7 +71,8 @@ Diese Blöcke zeigen öffentliche Auktionsinhalte an und akzeptieren Anzeigeopti
 | [Auktionsliste](/de/website/sales-list.md) | `#ca-sales-list` | Filterbare Liste von Auktionen mit Seitennavigation |
 | [Auktionsseite](/de/website/sale-page.md) | `#ca-sale-page` | Durchsuchbare Losliste einer Auktion |
 | [Auktionsinfo](/de/website/sale-info.md) | `#ca-sale-info` | Eigenständiger Informationsblock für eine Auktion |
-| [Hervorgehobene Lose](/de/website/featured-items.md) | `#ca-featured-items` | Karussell der Highlight-Lose einer Auktion |
+| [Inhaltsverzeichnis](/de/website/table-of-contents.md) | `#ca-table-of-contents` | Eigenständiges Inhaltsverzeichnis (Sessions) einer Auktion |
+| [Hervorgehobene Lose](/de/website/featured-items.md) | `#ca-featured-items` | Karussell oder Raster der Highlight-Lose, für eine Auktion oder alle veröffentlichten Auktionen |
 | [Losseite](/de/website/item-page.md) | `#ca-item-page` | Einzelnes Los mit Details und Bieten |
 | [Erzielte Preise](/de/website/prices-realized.md) | `#ca-prices-realized` | Ergebnistabelle einer abgeschlossenen Auktion |
 | [Gebot abgeben](/de/website/place-bid.md) | `.place-bid` | Inline-Gebots-Widget (mehrfach pro Seite) |

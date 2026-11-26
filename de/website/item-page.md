@@ -1,4 +1,4 @@
-<!-- i18n source=website/item-page.md sha=9231a480bfc5 -->
+<!-- i18n source=website/item-page.md sha=ef21935815da -->
 # Losseite
 
 **Selektor:** `#ca-item-page` &nbsp;•&nbsp; *einmal pro Seite*
@@ -22,6 +22,12 @@ Zeigt ein einzelnes Auktionslos: Bildergalerie mit Lightbox, Titel und Untertite
 | `data-thumb-rows` | Nein | `1` | Zahl | Wie viele Zeilen von Galerie-Vorschaubildern vor dem Umschalter „Mehr anzeigen“ gezeigt werden. |
 
 Bei Losen mit mehr als 200 Bildern öffnet der Umschalter die Vollbild-Bildansicht (mit eigener scrollbarer Vorschaubildleiste), statt die Vorschaubilder direkt auszuklappen.
+
+### Verhalten der Galerie
+
+Ein Klick auf ein Vorschaubild zeigt dieses Bild im Hauptbild oberhalb der Vorschaubilder. Bei einem Los mit vielen Bildern hat der Besucher die Vorschaubilder möglicherweise so weit nach unten gescrollt, dass das Hauptbild nicht mehr auf dem Bildschirm zu sehen ist. In diesem Fall öffnet der Klick stattdessen die Vollbild-Bildansicht mit diesem Bild, sodass der Besucher das gewählte Bild immer sieht.
+
+Das Hauptbild folgt der Vollbild-Bildansicht: Wer dort zu einem anderen Bild blättert und die Ansicht schließt, sieht auf der Seite dasselbe Bild.
 
 ### Anzeigemodi
 

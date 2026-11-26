@@ -112,6 +112,7 @@
   * [Sales List](website/sales-list.md)
   * [Sale Page](website/sale-page.md)
   * [Sale Info](website/sale-info.md)
+  * [Table of Contents](website/table-of-contents.md)
   * [Featured Items](website/featured-items.md)
   * [Item Page](website/item-page.md)
   * [Prices Realized](website/prices-realized.md)

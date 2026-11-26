@@ -70,7 +70,8 @@ These blocks display public auction content and accept display options as `data-
 | [Sales List](website/sales-list.md) | `#ca-sales-list` | Filterable, paginated list of sales |
 | [Sale Page](website/sale-page.md) | `#ca-sale-page` | Searchable item listing for one sale |
 | [Sale Info](website/sale-info.md) | `#ca-sale-info` | Standalone information block for one sale |
-| [Featured Items](website/featured-items.md) | `#ca-featured-items` | Carousel of a sale's featured items |
+| [Table of Contents](website/table-of-contents.md) | `#ca-table-of-contents` | Standalone table of contents (sessions) for one sale |
+| [Featured Items](website/featured-items.md) | `#ca-featured-items` | Carousel or grid of featured items, for one sale or all published sales |
 | [Item Page](website/item-page.md) | `#ca-item-page` | Single item with details and bidding |
 | [Prices Realized](website/prices-realized.md) | `#ca-prices-realized` | Results table for a completed sale |
 | [Place Bid](website/place-bid.md) | `.place-bid` | Inline bidding widget (multiple per page) |

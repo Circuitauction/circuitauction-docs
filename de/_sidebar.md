@@ -140,6 +140,7 @@
     * [Auktionsliste](/de/website/sales-list.md)
     * [Auktionsseite](/de/website/sale-page.md)
     * [Auktionsinfo](/de/website/sale-info.md)
+    * [Inhaltsverzeichnis](/de/website/table-of-contents.md)
     * [Hervorgehobene Lose](/de/website/featured-items.md)
     * [Losseite](/de/website/item-page.md)
     * [Erzielte Preise](/de/website/prices-realized.md)
