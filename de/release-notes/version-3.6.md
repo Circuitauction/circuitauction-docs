@@ -1,4 +1,4 @@
-<!-- i18n source=release-notes/version-3.6.md sha=8f8e5e2e27fb -->
+<!-- i18n source=release-notes/version-3.6.md sha=37e2a6b38ac1 -->
 # Version 3.6
 
 Kommendes Release. Version 3.6 folgt einem Los, wohin es auch geht: Ein Los, das in eine spätere Auktion geklont oder verschoben, an ein verbundenes Backoffice gesendet oder von dort zurückgeholt wird, zeigt jetzt seine gesamte Kette auf der Losseite, im Stammbaum und in der Losliste; sein Verlaufs-Tab liest über Backoffices hinweg, und die Regeln für Klonen und Verschieben stellen sicher, dass ein Los immer von seinem neuesten Glied genommen wird. Klon- und Verschiebe-Stapel laufen über die Warteschlange, ein Los nach dem anderen, und melden jedes Ergebnis auf der Losliste. Bei den Auswertungen fasst eine neue Seite „Sales statistics“ mehrere Auktionen auf einmal zusammen, die Kundenstatistiken zeigen mehr Zahlen, „Export Accounting“ listet die letzten Exporte mit ihren Dateien auf, und die offenen Rechnungen eines Kunden lassen sich in einem neuen Kontoauszug zusammenfassen.
@@ -94,9 +94,3 @@ Der Tab **Kontoauszug** der Kundenseite hat ein Panel **New statement of account
 - **Due invoices (one statement invoice)**: fasst alle nicht vollständig bezahlten Rechnungen des Kunden mit den erhaltenen Zahlungen in einer Kontoauszugsrechnung zusammen, sodass der Kunde eine Übersicht über alle offenen Rechnungen erhält.
 
 Setzen Sie ein Häkchen bei **Preliminary results**, um den Auszug vor dem Erzeugen in der Vorschau zu sehen.
-
-## Datenmigration
-
-### Verbundene Lose bei Kelleher
-
-Lose, die in einer späteren AMS-Auktion erneut angeboten wurden, werden jetzt als Glieder der Los-Kette importiert statt als separate Verbindungseinträge, sodass migrierte Lose dieselbe Kette, dieselben Verlaufszeilen und dieselben Zellen in Moved to zeigen wie im Backoffice geklonte Lose.

@@ -93,9 +93,3 @@ The **Statement of Account** tab of the client page has a **New statement of acc
 - **Due invoices (one statement invoice)**: groups every invoice of the client that is not fully paid, with the payments received, into one statement of account invoice, so the client gets a summary of all their open invoices.
 
 Tick **Preliminary results** to preview the statement before generating it.
-
-## Data migration
-
-### Kelleher connected items
-
-Lots that were offered again in a later AMS sale are now imported as links of the item chain instead of separate connected records, so migrated lots show the same chain, history rows and Moved to cells as lots cloned in the backoffice.
